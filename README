@@ -1,0 +1,5 @@
+Search for and replace "pjk" with your own initials
+
+in variables.tf - replace you own ami "default = "ami-0a4387db64822e3c1"
+
+in variables, replace your won ip address default = "69.136.168.38/32"
