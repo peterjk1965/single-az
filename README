@@ -7,4 +7,6 @@ in variables.tf, replace your firewalls ip address,  default = "69.136.168.38/32
 
 in variables.tf, create a new key, then change your key name to that key = default is "ohio"
 
-in main and variables, set your region, default is us-east-2
+in main.tf and variables, set your region, default is us-east-2
+
+in ec2.tf, comment out the back-end instance if not using one
