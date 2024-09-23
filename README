@@ -1,9 +1,9 @@
-Search for and replace "pjk" with your own company initials
-example: 
+in main.tf, search for and replace "pjk" with your own company initials
+example: resource "aws_vpc" "pjk-vpc" can be replaced with ABC-vpc
 
-in variables.tf - replace you own ami "default = "ami-0a4387db64822e3c1"
+in variables.tf, use your own ami,  "default = "ami-0a4387db64822e3c1"
 
-in variables.tf, replace your ip address default = "69.136.168.38/32"
+in variables.tf, replace your firewalls ip address,  default = "69.136.168.38/32"
 
 in variables.tf, create a new key, then change your key name to that key = default is "ohio"
 
