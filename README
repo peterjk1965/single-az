@@ -4,4 +4,4 @@ in variables.tf - replace you own ami "default = "ami-0a4387db64822e3c1"
 
 in variables, replace your won ip address default = "69.136.168.38/32"
 
-also, replace region, in main and variables
+also, replace region, in main and variables, default is us-east-2
