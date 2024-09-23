@@ -1,7 +1,10 @@
-Search for and replace "pjk" with your own initials
+Search for and replace "pjk" with your own company initials
+example: 
 
 in variables.tf - replace you own ami "default = "ami-0a4387db64822e3c1"
 
-in variables, replace your won ip address default = "69.136.168.38/32"
+in variables.tf, replace your ip address default = "69.136.168.38/32"
 
-also, replace region, in main and variables, default is us-east-2
+in variables.tf, create a new key, then change your key name to that key = default is "ohio"
+
+in main and variables, set your region, default is us-east-2
